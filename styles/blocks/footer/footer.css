@@ -1,0 +1,8 @@
+@import './__container/footer__container.css';
+@import './__icons/footer__icons.css';
+@import './__icon/footer__icon.css';
+@import './__copyright/footer__copyright.css';
+
+.footer {
+    background-color: #90d23d;
+}

@@ -1,0 +1,27 @@
+.speakers__grid-item {
+    background-color: #90d23d;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.speakers__grid-item:nth-child(2) {
+    background-image: url(../../../../images/Object_8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.speakers__grid-item:nth-child(5) {
+    background-color: #ffffff;
+    background-image: url(../../../../images/Object_7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 1087px) {
+    .speakers__grid-item:not(:nth-child(2)):not(:nth-child(5)) {
+        display: none;
+    }
+    
+}
+

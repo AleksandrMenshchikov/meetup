@@ -1,0 +1,20 @@
+.speakers__grid-item-title {
+    font-family: 'Roboto-Black', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 45px;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1;
+}
+
+.speakers__grid-item-title::after {
+    content: '';
+    display: block;
+    width: 35%;
+    height: 6px;
+    background-color: #ffffff;
+    margin-top: 7px;
+}
+
+

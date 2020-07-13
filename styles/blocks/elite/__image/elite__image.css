@@ -1,0 +1,14 @@
+.elite__image {
+    width: 33%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    -ms-flex-negative: 2;
+        flex-shrink: 2;
+}
+
+@media screen and (max-width: 767px) {
+    .elite__image {
+        -ms-flex-item-align: center;
+            align-self: center;
+    }
+}

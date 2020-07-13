@@ -1,0 +1,22 @@
+@import './__item/burger__item.css';
+
+.burger {
+    display: none;
+    width: 35px;
+    height: 20px;
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px) {
+    .burger {
+        display: block;
+        position: relative;
+    }
+
+}
+
+

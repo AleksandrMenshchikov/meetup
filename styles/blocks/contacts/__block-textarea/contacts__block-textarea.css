@@ -1,0 +1,21 @@
+.contacts__block-textarea {
+    display: block;
+    width: 90%;
+    margin: 0 auto 25px 0;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #90d23d;
+    padding: 15px 15px 15px;
+    font-family: 'Roboto-Light', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #6c6c6c;
+    height: 250px;
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__block-textarea {
+        margin: 0 auto 25px;
+    }
+}

@@ -1,0 +1,28 @@
+.past-events__button {
+    display: block;
+    margin: 90px auto 0;
+    width: 200px;
+    height: 55px;
+    line-height: 55px;
+    text-decoration: none;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #373737;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.past-events__button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 424px) {
+    .past-events__button {
+        margin: 50px auto 0;
+    }
+}

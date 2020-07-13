@@ -1,0 +1,26 @@
+@import './__item/timer__item.css';
+@import './__item-digit/timer__item-digit.css';
+@import './__colon/timer__colon.css';
+
+.timer {
+    border: 2px solid #82b541;
+    border-radius: 20px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+@media screen and (max-width: 374px) {
+    .timer {
+        width: 100%;
+    }
+}

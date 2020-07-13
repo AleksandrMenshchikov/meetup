@@ -1,0 +1,14 @@
+.elite__text {
+    max-width: 670px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .elite__text {
+        -ms-flex-item-align: center;
+            align-self: center;
+    }
+}

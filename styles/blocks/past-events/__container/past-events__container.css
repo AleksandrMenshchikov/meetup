@@ -1,0 +1,11 @@
+.past-events__container {
+    max-width: 1230px;
+    padding: 0 30px 80px;
+    margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .past-events__container {
+        padding: 0 15px 80px;
+    }
+}

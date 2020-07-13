@@ -1,0 +1,9 @@
+.burger__item {
+    width: 35px;
+    height: 3px;
+    background-color: #82b541;
+}
+
+.burger__item:not(:last-of-type) {
+    margin-bottom: 4px;
+}

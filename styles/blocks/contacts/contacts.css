@@ -1,0 +1,17 @@
+@import './__container/contacts__container.css';
+@import './__block/contacts__block.css';
+@import './__block-left/contacts__block-left.css';
+@import './__block-image/contacts__block-image.css';
+@import './__block-address/contacts__block-address.css';
+@import './__block-left-button/contacts__block-left-button.css';
+@import './__block-right/contacts__block-right.css';
+@import './__block-input/contacts__block-input.css';
+@import './__block-textarea/contacts__block-textarea.css';
+@import './__block-submit/contacts__block-submit.css';
+
+.contacts {
+    background-image: url(../../../images/Map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,23 @@
+.speakers__subtitle {
+    font-family: 'Roboto-Light', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #242424;
+    margin: 0 0 60px;
+    max-width: 560px;
+}
+
+@media screen and (max-width: 1087px) {
+    .speakers__subtitle {
+        margin: 0 auto 60px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .speakers__subtitle {
+        margin: 0 auto 40px;
+    }
+    
+}

@@ -1,0 +1,10 @@
+.sponsor__image {
+    max-width: 200px;
+}
+
+@media screen and (max-width: 520px) {
+    .sponsor__image:not(:nth-child(1)) {
+        margin-bottom: 30px;
+    }
+}
+

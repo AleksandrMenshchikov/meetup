@@ -1,0 +1,20 @@
+@import './__container/elite__container.css';
+@import './__content/elite__content.css';
+@import './__image/elite__image.css';
+@import './__text/elite__text.css';
+@import './__title/elite__title.css';
+@import './__paragraph/elite__paragraph.css';
+@import './__button/elite__button.css';
+
+.elite {
+    background-image: url(../../../images/Rectangle_5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+@media screen and (max-width: 1350px) {
+    .elite {
+        background-size: auto;
+    }
+}

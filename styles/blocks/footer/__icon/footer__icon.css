@@ -1,0 +1,19 @@
+.footer__icon {
+    display: inline-block;
+    -ms-flex-preferred-size: 47px;
+        flex-basis: 47px;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.footer__icon img {
+    width: 100%;
+}
+
+.footer__icon:not(:last-child) {
+    margin-right: 9px;
+}
+
+.footer__icon:hover {
+    opacity: 0.8;
+}

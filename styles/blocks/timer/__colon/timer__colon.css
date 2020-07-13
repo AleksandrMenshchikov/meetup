@@ -1,0 +1,42 @@
+.timer__colon {
+    font-size: 50px;
+    color: #ffffff;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    .timer__colon {
+        padding-top: 20px;
+        margin-top: -10px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timer__colon {
+        padding-top: 10px;
+        margin-top: -10px;
+        line-height: 30px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timer__colon {
+        padding-top: 10px;
+        margin-top: -10px;
+        line-height: 30px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timer__colon {
+        padding-top: 10px;
+        margin-top: -10px;
+        line-height: 20px;
+        font-size: 30px;
+    }
+}

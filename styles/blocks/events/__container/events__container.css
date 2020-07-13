@@ -1,0 +1,11 @@
+.events__container {
+    max-width: 1090px;
+    padding: 0 30px 0;
+    margin: auto; 
+}
+
+@media screen and (max-width: 767px) {
+    .events__container {
+        padding: 0 15px 0;
+    }
+}

@@ -1,0 +1,20 @@
+.sponsor__block-image {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: 69px;
+    position: relative;
+}
+
+.sponsor__block-image::after {
+    position: absolute;
+    content: url(../../../../images/House.png);
+    bottom: -4px;
+    right: 56px;
+}
+
+@media screen and (max-width: 520px) {
+    .sponsor__block-image {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,9 @@
+.form__title {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #252525;
+    margin: 30px auto 20px;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+@import './__container/sponsor__container.css';
+@import './__block/sponsor__block.css';
+@import './__title/sponsor__title.css';
+@import './__paragraph/sponsor__paragraph.css';
+@import './__images/sponsor__images.css';
+@import './__image/sponsor__image.css';
+@import './__block-image/sponsor__block-image.css';
+@import './__button/sponsor__button.css';
+
+.sponsor {
+    background-image: url(../../../images/Rectangle_5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+@media screen and (max-width: 1350px) {
+    .sponsor {
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .sponsor {
+        background-position: center 20px;
+    }
+}

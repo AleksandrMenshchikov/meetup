@@ -1,0 +1,24 @@
+@import './__container/header__container.css';
+@import './__menu/header__menu.css';
+@import './__logo/header__logo.css';
+@import './__nav/header__nav.css';
+@import './__link/header__link.css';
+@import './__timer/header__timer.css';
+@import './__text/header__text.css';
+@import './__title/header__title.css';
+@import './__paragraph/header__paragraph.css';
+@import './__content/header__content.css';
+
+.header {
+    background-image: url(../../../images/Layer_6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+
+@media screen and (max-width: 1350px) {
+    .header {
+        background-size: auto;
+    }
+}
+

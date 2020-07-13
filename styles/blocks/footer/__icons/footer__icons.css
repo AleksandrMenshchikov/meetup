@@ -1,0 +1,9 @@
+.footer__icons {
+    max-width: 290px;
+    margin: 0 auto 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+

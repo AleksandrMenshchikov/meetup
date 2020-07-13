@@ -1,0 +1,29 @@
+.header__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.1s ease-in-out;
+    transition: border-bottom 0.1s ease-in-out;
+}
+
+.header__link:not(:last-of-type) {
+    margin-right: 45px;
+}
+
+.header__link:hover {
+    border-bottom: 2px solid #82b541;
+}
+
+@media screen and (max-width: 767px) {
+    .header__link:not(:last-of-type) {
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    .header__link:last-of-type {
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+}

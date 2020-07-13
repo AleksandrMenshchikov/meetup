@@ -1,0 +1,16 @@
+.speakers__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 316px);
+    grid-auto-rows: 316px;
+    grid-gap: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+@media screen and (max-width: 424px) {
+    .speakers__grid {
+        grid-template-columns: repeat(auto-fit, 270px);
+        grid-auto-rows: 270px;
+    }
+}

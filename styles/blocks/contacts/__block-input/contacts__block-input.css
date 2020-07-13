@@ -1,0 +1,23 @@
+.contacts__block-input {
+    display: block;
+    width: 90%;
+    margin: 55px auto 25px 0;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #90d23d;
+    height: 55px;
+    padding: 0 15px 0;
+    font-family: 'Roboto-Light', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #6c6c6c;
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__block-input {
+        margin: 55px auto 25px;
+    }
+}
+
+

@@ -1,0 +1,30 @@
+.elite__button {
+    display: block;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #90d23d;
+    line-height: 55px;
+    border-radius: 15px;
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.elite__button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+    .elite__button {
+        float: unset;
+        margin: 20px auto 0;
+    }
+}

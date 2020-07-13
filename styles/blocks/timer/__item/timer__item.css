@@ -1,0 +1,30 @@
+.timer__item {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 20px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .timer__item {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .timer__item {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timer__item {
+        font-size: 10px;
+        padding: 0 5px 5px;
+    }
+}

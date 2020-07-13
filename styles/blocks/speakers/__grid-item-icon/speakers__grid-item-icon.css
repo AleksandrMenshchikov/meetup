@@ -1,0 +1,16 @@
+.speakers__grid-item-icon {
+    display: inline-block;
+    margin: 40px 5px 0 0;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out; 
+}
+
+.speakers__grid-item-icon:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 424px) {
+    .speakers__grid-item-icon {
+        margin: 0 5px 0 0;
+    }
+}

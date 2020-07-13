@@ -1,0 +1,11 @@
+.footer__container {
+    margin: auto;
+    max-width: 440px;
+    padding: 55px 30px 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__container {
+        padding: 55px 15px 40px;
+    }
+}

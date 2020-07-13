@@ -1,0 +1,14 @@
+.elite__paragraph {
+    font-family: 'Roboto-Light', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+    .elite__paragraph {
+        text-align: left;
+    }
+}

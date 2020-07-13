@@ -1,0 +1,35 @@
+.button-up {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+    background-color: coral;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.button-up img {
+    width: 60%;
+}
+
+.button-up:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) {
+    .button-up {
+        display: none;
+    }
+}

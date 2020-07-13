@@ -1,0 +1,4 @@
+.contacts__block-left {
+    -ms-flex-preferred-size: 500px;
+        flex-basis: 500px;
+}

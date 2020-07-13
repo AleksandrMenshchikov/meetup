@@ -1,0 +1,28 @@
+.timer__item-digit {
+    display: block;
+    font-family: 'Roboto-Thin', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 130px;
+}
+
+@media screen and (max-width: 900px) {
+    .timer__item-digit {
+        font-size: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .timer__item-digit {
+        font-size: 70px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .timer__item-digit {
+        font-size: 45px;
+    }
+    
+}

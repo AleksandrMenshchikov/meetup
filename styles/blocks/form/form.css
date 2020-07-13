@@ -1,0 +1,35 @@
+@import './__title/form__title.css';
+@import './__input/form__input.css';
+@import './__submit/form__submit.css';
+@import './__text/form__text.css';
+
+.form {
+    -ms-flex-preferred-size: 430px;
+        flex-basis: 430px;
+    max-width: 430px;
+    background-color: #ffffff;
+    padding: 0 30px;
+    border: 1px solid lightgray;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+            box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    -ms-flex-negative: 0.5;
+        flex-shrink: 0.5;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .form {
+        width: 100%;
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .form {
+        padding: 0 15px;
+    }
+}
+

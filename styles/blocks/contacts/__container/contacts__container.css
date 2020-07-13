@@ -1,0 +1,11 @@
+.contacts__container {
+    max-width: 1030px;
+    padding: 60px 30px 60px;
+    margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__container {
+        padding: 60px 15px 60px;
+    }
+}
